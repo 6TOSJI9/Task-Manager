@@ -1,4 +1,4 @@
-
+<x-app-layout>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +7,7 @@
     <title>Tasks</title>
 </head>
 <body>
-<h1>Tasks List</h1>
+<h1>:(</h1>
 <ul>
     @foreach($tasks as $task)
         <li>{{ $task->title }} - {{ $task->status }}</li>
@@ -15,3 +15,4 @@
 </ul>
 </body>
 </html>
+</x-app-layout>
